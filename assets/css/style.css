@@ -1,0 +1,134 @@
+html, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+}
+
+a, li {
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    max-width: 1366px;
+    min-width: 375px;
+    background-color: #000000;
+    background-image: url(../img/background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    overflow-y: hidden;
+}
+
+#header{
+    width: 100%;
+    height: 15vh;
+    display:flex;
+    justify-content: space-between;
+}
+
+.box_header{
+    width: 30%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.box_image_title{
+    width: 35%;
+    height: 100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.image{
+    width: 40px;
+    opacity: 1;
+}
+
+.box_link{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.box_nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.box_nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 3rem;
+}
+
+.box_nav li{
+    margin-right: 25px;
+}
+
+.box_nav a{
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.box_nav a:hover{
+    font-weight: bold;
+}
+
+#witcher_main{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(../img/witcher.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    margin-top: -4rem;
+}
+
+.background-image{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+
+.logo{
+    width: 85%;
+    margin-bottom: 8px;
+}
+
+.btn{
+    width: 210px;
+    height: 40px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    opacity: 1;
+    border-style: none;
+    cursor: pointer;
+    background: linear-gradient( #FF1323FA, #C00F1BFA 50%,  #A40D17 75%,  #E2202C 100%);
+}
+
+.btn p{
+    font-size: 15px;
+    color: #FFFFFF;
+    opacity: 1;
+    letter-spacing: 0.6px;
+    
+}
